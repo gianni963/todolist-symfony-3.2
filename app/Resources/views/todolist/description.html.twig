@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <a href="/">Return to the tasks list</a>
+    <div class=""row>
+        <h2 class="page-header">{{description.name}}</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Category : {{description.category}}</li>
+            <li class="list-group-item">Importance : {{description.importance}}</li>
+            <li class="list-group-item">Description: {{description.description}}</li>
+            <li class="list-group-item">Date : {{description.date|date("d/m/Y H:i:")}}</li>
+            <li class="list-group-item">Created at:{{description.createDate|date("d/m/Y H:i:")}}</li>
+        </ul>
+    </div>
+{% endblock %}
+

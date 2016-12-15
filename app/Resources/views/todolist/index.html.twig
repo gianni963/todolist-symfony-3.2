@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <p>To Do Index</p>
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>To do</th>
+                <th>Date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for task in list %}
+            <tr>
+                <th scope="row">{{task.id}}</th>
+                <td>{{task.name}}</td>
+                <td>{{task.date|date("d/m/Y H:i:")}}</td>
+                <td>
+                    <a href="/todolist/description/{{task.id}}" class="btn btn-primary">Description</a>
+                    <a href="/todolist/edit/{{task.id}}" class="btn btn-success">edit</a>
+                    <a href="/todolist/delete/{{task.id}}" class="btn btn-danger">delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
