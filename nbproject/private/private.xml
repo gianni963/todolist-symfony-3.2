@@ -3,13 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/wamp/www/todolist/composer.json</file>
+            <file>file:/C:/wamp/www/todolist/.gitignore</file>
             <file>file:/C:/wamp/www/todolist/app/Resources/views/todolist/create.html.twig</file>
+            <file>file:/C:/wamp/www/todolist/phpunit.xml.dist</file>
             <file>file:/C:/wamp/www/todolist/src/AppBundle/Form/TodolistType.php</file>
             <file>file:/C:/wamp/www/todolist/src/AppBundle/Entity/Todolist.php</file>
             <file>file:/C:/wamp/www/todolist/src/AppBundle/Form/TodolistEditType.php</file>
             <file>file:/C:/wamp/www/todolist/app/Resources/views/base.html.twig</file>
             <file>file:/C:/wamp/www/todolist/src/AppBundle/Controller/MainToDoController.php</file>
             <file>file:/C:/wamp/www/todolist/app/Resources/views/todolist/edit.html.twig</file>
+            <file>file:/C:/wamp/www/todolist/composer.lock</file>
             <file>file:/C:/wamp/www/todolist/app/Resources/views/todolist/description.html.twig</file>
         </group>
     </open-files>
